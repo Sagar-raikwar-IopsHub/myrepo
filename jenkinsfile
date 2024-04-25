@@ -22,11 +22,11 @@ pipeline {
                 }
             }
         } 
-        // stage('deploy') {
-          //  steps {
-                // Compile the Maven project
-            //    dir("my-app") {
-              //      sh "mvn deploy"
+         stage('Transfer') {
+            steps {
+                // Transfer file in another machine
+            //    dir("my-app/target") {
+              //      sh "scp my-app-1.jar/ sagar@192.168.43.181:/home/sagar"
                 //}
            // }
         //}
