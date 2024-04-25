@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define the Environment Variables
         gitRepoUrl = 'https://github.com/sagar-raikwar-iopshub/myrepo.git'
-        branchName = '$BranchName'
+        branchName = '$branchname'
     }
 
     stages {
